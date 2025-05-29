@@ -1,0 +1,88 @@
+h2{
+    color:firebrick;
+}
+
+
+p{
+    color:navy;
+}
+
+.corLilas{
+    color:rosybrown;
+}
+
+
+.corBranco{
+    color:white;
+}
+
+.p1{
+    color: green;
+}
+
+#corOrange{
+    color: orange ;
+}
+
+
+*{
+    color:yellow;
+}
+
+
+.font{
+    color:black;  /*Colore o texto*/
+    font-size: 40px; /*Muda o tamanho do texto*/
+    font-family: sans-serif; /*Muda a fonte do texto*/
+    font-weight: 900; /*Controle do negrito do texto*/
+    text-align: center; /*alinha o texto horizontalmente*/
+    text-decoration: underline; /*Adiciona um sublinhado*/
+    
+}
+
+#box{
+    width: 100px; /*Largura*/
+    height: 100px; /*Altura*/
+    margin: 1px 1px 1px 1px; /*Margem*/
+    padding: 1px 1px 1px 1px; /*Margem interna*/
+    border: black 1px solid;
+
+}
+
+.center{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+.position{
+    position: absolute; /* posiciona de forma absoluta um elemento*/
+    right: 100px; /*Distancia*/
+    top:100px;
+
+}
+
+.fundo{
+    background-color: beige; /* Cor de fundo */
+ }
+
+ .fundoImagem{
+    background-image: url(fundo.jpg ); /*Adiciona imagem no fundo*/
+    background-repeat: no-repeat; /*Diz que a imagem não vai repetir*/
+    background-size: 216vh; /*Define tamanho da imagem*/
+ }
+
+ .radius{
+    border-radius:100px;
+ }
+
+ .sombra{
+    box-shadow: 10px 10px 10px 5px black ; /* Horizontal, Verticas, Borrado (Blur), tamanho, cor*/
+ }
+
+ .over{
+    overflow: auto;
+    overflow-y: auto; /*Scroll vertical */
+    overflow-x: visible; /*Scroll horizontal*/
+ }

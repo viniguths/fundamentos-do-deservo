@@ -1,19 +1,30 @@
-p{
-    color:navy;
+.h1{
+    
+    color: blue;
 }
 
+#box{
+    width: 100px;
+    height: 100px;
+    margin: 1000px 1000px 100px 1000px;
+    padding: 100px 100px 100px 100px;
+    border: black 1px solid;
 
-.corBranco{
-    color:white;
+
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 }
 
-.p1{
-    color: green;
+.position{
+    position: absolute;
+    right: 100px;
+    top: 100px;
 }
 
-#corOrange{
-    color: orange ;
+.fundo{
+    background-color: red;
 }
-
-
-
